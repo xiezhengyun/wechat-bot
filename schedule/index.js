@@ -1,8 +1,7 @@
-const fundClock = require("./clock");
-const drinkTea = require("./drinkTea");
+const fundClock = require('./clock');
+
 async function schedule(bot) {
-	await fundClock(bot);
-	drinkTea(bot);
+  await fundClock(bot);
 }
 
 module.exports = schedule;
